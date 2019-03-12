@@ -38,21 +38,16 @@ INSERT INTO pokemon (number_, name_, health_points, evolution) VALUES
 (16, 'Roucool', 10, 17), 
 (20, 'Rattatac', 60, null), 
 (19, 'Rattata', 10, 19), 
-(18, 'Roucarnage', 80, null), 
-(17, 'Roucoups', 30, 16), 
-(16, 'Roucool', 10, 17), 
-(20, 'Rattatac', 60, null), 
-(19, 'Rattata', 10, 19), 
 (22, 'Rapasdepic', 60, null),
 (21, 'Piafabec', 10, 21),
 (24, 'Arbok', 60, null),
 (23, 'Abo', 10, 23),
 (26, 'Raichu', 60, null), 
-(25, 'Pikachu', 10, 25)
+(25, 'Pikachu', 10, 25)  
 -- Missing pokemons 
 ;
 
-INSERT type_pokemon ()INSERT INTO public.pokemon_est_de_type (pokemon_id, type_id) VALUES 
+INSERT INTO public.pokemon_est_de_type (pokemon_id, type_id) VALUES 
 (1, 1), 
 (1, 2), 
 (2, 1), 
